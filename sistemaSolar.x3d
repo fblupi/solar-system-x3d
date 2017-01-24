@@ -6,7 +6,7 @@
     <Viewpoint DEF="camara" orientation="0 0 0 1" position="0 0 30"/>
 
     <!-- Fondo -->
-    <Background backUrl="res/bg.jpg" bottomUrl="res/bg.jpg" frontUrl="res/bg.jpg" leftUrl="res/bg.jpg" rightUrl="res/bg.jpg" topUrl="res/bg.jpg"/>
+    <Background backUrl="./res/bg.jpg" bottomUrl="./res/bg.jpg" frontUrl="./res/bg.jpg" leftUrl="./res/bg.jpg" rightUrl="./res/bg.jpg" topUrl="./res/bg.jpg"/>
 
     <!-- Sol -->
     <Transform DEF="rotacionSol">
@@ -17,7 +17,7 @@
       <Shape DEF="sol">
         <Sphere radius="5"/>
         <Appearance>
-          <ImageTexture url="res/sol.jpg"/>
+          <ImageTexture url="./res/sol.jpg"/>
           <Material diffuseColor="1 1 1" ambientIntensity="1.0"/>
         </Appearance>
       </Shape>
@@ -42,7 +42,7 @@
           <Shape DEF="mercurio">
             <Sphere radius="0.245" onclick="animacionOnOff('TimeOrbitalMercurio');"/>
             <Appearance>
-              <ImageTexture url="res/mercurio.jpg"/>
+              <ImageTexture url="./res/mercurio.jpg"/>
               <Material diffuseColor="0.4 0.4 0.4"/>
             </Appearance>
           </Shape>
@@ -65,7 +65,7 @@
           <Shape DEF="venus">
             <Sphere radius="0.605" onclick="animacionOnOff('TimeOrbitalVenus');"/>
             <Appearance>
-              <ImageTexture url="res/venus.jpg"/>
+              <ImageTexture url="./res/venus.jpg"/>
               <Material diffuseColor="0.4 0.4 0.4"/>
             </Appearance>
           </Shape>
@@ -88,7 +88,7 @@
           <Shape DEF="tierra">
             <Sphere radius="0.635" onclick="animacionOnOff('TimeOrbitalTierra');"/>
             <Appearance>
-              <ImageTexture url="res/tierra.jpg"/>
+              <ImageTexture url="./res/tierra.jpg"/>
               <Material diffuseColor="0.4 0.4 0.4"/>
             </Appearance>
           </Shape>
@@ -104,7 +104,7 @@
             <Shape DEF="luna">
               <Sphere radius="0.17" onclick="animacionOnOff('TimeOrbitalLuna');"/>
               <Appearance>
-                <ImageTexture url="res/luna.jpg"/>
+                <ImageTexture url="./res/luna.jpg"/>
                 <Material diffuseColor="0.4 0.4 0.4"/>
               </Appearance>
             </Shape>
@@ -129,7 +129,7 @@
           <Shape DEF="marte">
             <Sphere radius="0.34" onclick="animacionOnOff('TimeOrbitalMarte');"/>
             <Appearance>
-              <ImageTexture url="res/marte.jpg"/>
+              <ImageTexture url="./res/marte.jpg"/>
               <Material diffuseColor="0.4 0.4 0.4"/>
             </Appearance>
           </Shape>
@@ -145,7 +145,7 @@
             <Shape DEF="fobos">
               <Sphere radius="0.01" onclick="animacionOnOff('TimeOrbitalFobos');"/>
               <Appearance>
-                <ImageTexture url="res/fobos.jpg"/>
+                <ImageTexture url="./res/fobos.jpg"/>
                 <Material diffuseColor="0.4 0.4 0.4"/>
               </Appearance>
             </Shape>
@@ -162,7 +162,7 @@
             <Shape DEF="deimos">
               <Sphere radius="0.005" onclick="animacionOnOff('TimeOrbitalDeimos');"/>
               <Appearance>
-                <ImageTexture url="res/deimos.jpg"/>
+                <ImageTexture url="./res/deimos.jpg"/>
                 <Material diffuseColor="0.4 0.4 0.4"/>
               </Appearance>
             </Shape>
@@ -187,7 +187,7 @@
           <Shape DEF="jupiter">
             <Sphere radius="2.5" onclick="animacionOnOff('TimeOrbitalJupiter');"/>
             <Appearance>
-              <ImageTexture url="res/jupiter.jpg"/>
+              <ImageTexture url="./res/jupiter.jpg"/>
               <Material diffuseColor="0.4 0.4 0.4"/>
             </Appearance>
           </Shape>
@@ -203,7 +203,7 @@
             <Shape DEF="io">
               <Sphere radius="0.18" onclick="animacionOnOff('TimeOrbitalIo');"/>
               <Appearance>
-                <ImageTexture url="res/io.jpg"/>
+                <ImageTexture url="./res/io.jpg"/>
                 <Material diffuseColor="0.4 0.4 0.4"/>
               </Appearance>
             </Shape>
@@ -220,7 +220,7 @@
             <Shape DEF="europa">
               <Sphere radius="0.155" onclick="animacionOnOff('TimeOrbitalEuropa');"/>
               <Appearance>
-                <ImageTexture url="res/europa.jpg"/>
+                <ImageTexture url="./res/europa.jpg"/>
                 <Material diffuseColor="0.4 0.4 0.4"/>
               </Appearance>
             </Shape>
@@ -237,7 +237,7 @@
             <Shape DEF="ganimedes">
               <Sphere radius="0.265" onclick="animacionOnOff('TimeOrbitalGanimedes');"/>
               <Appearance>
-                <ImageTexture url="res/ganimedes.jpg"/>
+                <ImageTexture url="./res/ganimedes.jpg"/>
                 <Material diffuseColor="0.4 0.4 0.4"/>
               </Appearance>
             </Shape>
@@ -254,7 +254,7 @@
             <Shape DEF="calisto">
               <Sphere radius="0.24" onclick="animacionOnOff('TimeOrbitalCalisto');"/>
               <Appearance>
-                <ImageTexture url="res/calisto.jpg"/>
+                <ImageTexture url="./res/calisto.jpg"/>
                 <Material diffuseColor="0.4 0.4 0.4"/>
               </Appearance>
             </Shape>
@@ -279,7 +279,7 @@
           <Shape DEF="saturno">
             <Sphere radius="2" onclick="animacionOnOff('TimeOrbitalSaturno');"/>
             <Appearance>
-              <ImageTexture url="res/saturno.jpg"/>
+              <ImageTexture url="./res/saturno.jpg"/>
               <Material diffuseColor="0.4 0.4 0.4"/>
             </Appearance>
           </Shape>
@@ -295,7 +295,7 @@
             <Shape DEF="anilloA">
               <Torus innerRadius="0.24" outerRadius="4.2" subdivision="64 64"/>
               <Appearance>
-                <ImageTexture url="res/anilloa.jpg"/>
+                <ImageTexture url="./res/anilloa.jpg"/>
                 <Material diffuseColor="0.4 0.4 0.4"/>
               </Appearance>
             </Shape>
@@ -312,7 +312,7 @@
             <Shape DEF="anilloB">
               <Torus innerRadius="0.39" outerRadius="3.5" subdivision="64 64"/>
               <Appearance>
-                <ImageTexture url="res/anillob.jpg"/>
+                <ImageTexture url="./res/anillob.jpg"/>
                 <Material diffuseColor="0.4 0.4 0.4"/>
               </Appearance>
             </Shape>
@@ -329,7 +329,7 @@
             <Shape DEF="anilloC">
               <Torus innerRadius="0.325" outerRadius="2.7" subdivision="64 64"/>
               <Appearance>
-                <ImageTexture url="res/anilloc.jpg"/>
+                <ImageTexture url="./res/anilloc.jpg"/>
                 <Material diffuseColor="0.4 0.4 0.4"/>
               </Appearance>
             </Shape>
@@ -354,7 +354,7 @@
           <Shape DEF="urano">
             <Sphere radius="1.3" onclick="animacionOnOff('TimeOrbitalUrano');"/>
             <Appearance>
-              <ImageTexture url="res/urano.jpg"/>
+              <ImageTexture url="./res/urano.jpg"/>
               <Material diffuseColor="0.4 0.4 0.4"/>
             </Appearance>
           </Shape>
@@ -370,7 +370,7 @@
             <Shape DEF="miranda">
               <Sphere radius="0.02" onclick="animacionOnOff('TimeOrbitalMiranda');"/>
               <Appearance>
-                <ImageTexture url="res/miranda.jpg"/>
+                <ImageTexture url="./res/miranda.jpg"/>
                 <Material diffuseColor="0.4 0.4 0.4"/>
               </Appearance>
             </Shape>
@@ -387,7 +387,7 @@
             <Shape DEF="ariel">
               <Sphere radius="0.05" onclick="animacionOnOff('TimeOrbitalAriel');"/>
               <Appearance>
-                <ImageTexture url="res/ariel.jpg"/>
+                <ImageTexture url="./res/ariel.jpg"/>
                 <Material diffuseColor="0.4 0.4 0.4"/>
               </Appearance>
             </Shape>
@@ -404,7 +404,7 @@
             <Shape DEF="umbriel">
               <Sphere radius="0.06" onclick="animacionOnOff('TimeOrbitalUmbriel');"/>
               <Appearance>
-                <ImageTexture url="res/umbriel.jpg"/>
+                <ImageTexture url="./res/umbriel.jpg"/>
                 <Material diffuseColor="0.4 0.4 0.4"/>
               </Appearance>
             </Shape>
@@ -421,7 +421,7 @@
             <Shape DEF="titania">
               <Sphere radius="0.08" onclick="animacionOnOff('TimeOrbitalTitania');"/>
               <Appearance>
-                <ImageTexture url="res/titania.jpg"/>
+                <ImageTexture url="./res/titania.jpg"/>
                 <Material diffuseColor="0.4 0.4 0.4"/>
               </Appearance>
             </Shape>
@@ -438,7 +438,7 @@
             <Shape DEF="oberon">
               <Sphere radius="0.075" onclick="animacionOnOff('TimeOrbitalOberon');"/>
               <Appearance>
-                <ImageTexture url="res/oberon.jpg"/>
+                <ImageTexture url="./res/oberon.jpg"/>
                 <Material diffuseColor="0.4 0.4 0.4"/>
               </Appearance>
             </Shape>
@@ -463,7 +463,7 @@
           <Shape DEF="neptuno">
             <Sphere radius="1.25" onclick="animacionOnOff('TimeOrbitalNeptuno');"/>
             <Appearance>
-              <ImageTexture url="res/neptuno.jpg"/>
+              <ImageTexture url="./res/neptuno.jpg"/>
               <Material diffuseColor="0.4 0.4 0.4"/>
             </Appearance>
           </Shape>
@@ -479,7 +479,7 @@
             <Shape DEF="triton">
               <Sphere radius="0.135" onclick="animacionOnOff('TimeOrbitalTriton');"/>
               <Appearance>
-                <ImageTexture url="res/triton.jpg"/>
+                <ImageTexture url="./res/triton.jpg"/>
                 <Material diffuseColor="0.4 0.4 0.4"/>
               </Appearance>
             </Shape>
